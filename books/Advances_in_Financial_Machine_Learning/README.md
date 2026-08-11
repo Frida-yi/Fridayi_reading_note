@@ -32,10 +32,7 @@
 .
 ├── README.md
 ├── reading-plan.md          # 阅读计划
-├── reading-log/             # 每次阅读记录
-├── notes/                   # 分章笔记
-├── templates/               # 笔记模板
-└── assets/code/             # 实验代码/伪代码
+└── notes/                   # 分章笔记
 ```
 
 ## 和我的截面选股系统的对应关系

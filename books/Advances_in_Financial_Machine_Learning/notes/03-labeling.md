@@ -34,3 +34,7 @@ close_{t+N} / close_t - 1
 - [ ] 检查信号生成时间和成交时间；
 - [ ] 做 close-to-close vs open-to-open vs open-to-vwap 的对照实验；
 - [ ] 检查未来 N 日收益的 overlap 问题。
+
+## 5. 3.3 Computing Dynamic Thresholds
+
+1. 对于 3 分类任务的 label，对于不同的股票，或者同一只股票的不同时期，应该以过去收益标准差的指数加权平均作为波动率预期；然后以这个波动率预期为锚点，未来收益超过某个正向阈值则标为 1，低于某个负向阈值则标为 -1，否则标为 0。
